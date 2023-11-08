@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+#descricao {
+    text-align: center;
+    margin: 80px;
+    img {
+        border-bottom: 5px solid $cor-primaria;
+        margin-bottom: 1rem;
+    }
+    h3 {
+        font-size: $tamanho-do-texto/2;
+        font-weight: 300;
+        color: $cor-secundaria;
+    }
+    h4 {
+        margin: 10px 0;
+        font-size: $tamanho-do-texto/2.5;
+        font-weight: 300;
+        color: $cor-terciaria;
+    }
+    p {
+        margin: 10px 0;
+        font-size: $tamanho-do-texto/2.5;
+        font-weight: 300;
+        color: $cor-terciaria;
+    }
+}
